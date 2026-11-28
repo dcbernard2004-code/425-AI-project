@@ -15,3 +15,8 @@ The models used for image classification are SVM:Linear,SVM:RBF and MLPclassific
 Then they are put into a table to read the results and deafferenting combinations of entries loaded,execution times and image quality are shown with the table.
 10,50 and 100 entries are shown
 128x128 and 256x256 image quality are shown
+
+INSTRUCTIONS:
+1. download dataset from the kaggle link, then unzip it
+2. copy path link for folder and paste it into the dataset_path variable or how I did it was put folder into your google drive and mount the notebook with your google drive. Then find folder in google drive and copy the path then paste the path into the dataset_path variable.(validation test is there to make sure the notebook found the folder)
+3. run notebook
